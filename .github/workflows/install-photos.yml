@@ -1,0 +1,37 @@
+name: Install White Sands research photographs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/install-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download documented source photographs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          download() {
+            curl --fail --location --retry 4 --retry-all-errors --connect-timeout 20 --max-time 120 --user-agent "SeeAmericaResearch/1.0 (student project)" "$1" -o "$2"
+            file "$2" | grep -Eq 'JPEG image data' || { echo "Not a JPEG: $2"; exit 1; }
+            test "$(stat -c%s "$2")" -gt 20000
+          }
+          download 'https://commons.wikimedia.org/wiki/Special:Redirect/file/White%20Sands%20National%20Monument%20WHSA2682.jpg' assets/nps-1.jpeg
+          download 'https://commons.wikimedia.org/wiki/Special:Redirect/file/White%20Sands%20National%20Monument%20WHSA2683.jpg' assets/nps-2.jpeg
+          download 'https://commons.wikimedia.org/wiki/Special:Redirect/file/White%20Sands%20National%20Monument%20WHSA2344.jpg' assets/nps-3.jpeg
+          download 'https://commons.wikimedia.org/wiki/Special:Redirect/file/WhiteSandsGypsum.jpg' assets/nps-4.jpeg
+      - name: Commit locally hosted photos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/nps-*.jpeg
+          if ! git diff --cached --quiet; then
+            git commit -m "Add four licensed White Sands research photographs"
+            git push
+          fi

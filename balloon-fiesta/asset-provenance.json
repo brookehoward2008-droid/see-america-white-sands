@@ -1,0 +1,85 @@
+{
+  "source_template": "https://website24594.nicepage.io/Page-1.html",
+  "template_id": 24595,
+  "photos": [
+    {
+      "source_filename": "AdobeStock_131312336.jpeg",
+      "local_filename": "hero-night.jpeg"
+    },
+    {
+      "source_filename": "natalya-letunova-D1XvUGLFkIE-unsplash.jpg",
+      "local_filename": "watching-balloons.jpg"
+    },
+    {
+      "source_filename": "chase-mcbride-lRXLSAsrVdc-unsplash.jpg",
+      "local_filename": "balloon-sky.jpg"
+    },
+    {
+      "source_filename": "AdobeStock_424991611.jpeg",
+      "local_filename": "courtyard.jpeg"
+    },
+    {
+      "source_filename": "abqjournal-ven12_ja_03jul_1eats-1024x768.jpeg",
+      "local_filename": "dining.jpeg"
+    },
+    {
+      "source_filename": "adolfo-felix-zM8kYZRjVvI-unsplash.jpg",
+      "local_filename": "night-glow.jpg"
+    },
+    {
+      "source_filename": "ben-hoskyn-dSPS-2dAbdc-unsplash (1).jpg",
+      "local_filename": "sunrise-field.jpg",
+      "caption": "First light, shared wonder",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "chase-mcbride-3nsRgGNmNF0-unsplash.jpg",
+      "local_filename": "balloon-detail.jpg",
+      "caption": "Color at every scale",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "rich-martello-RXT1P2TUjwE-unsplash.jpg",
+      "local_filename": "festival-field.jpg",
+      "caption": "A field full of anticipation",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "walter-o-RO_yg5M8_Sc-unsplash.jpg",
+      "local_filename": "balloon-crowd.jpg",
+      "caption": "On the ground, in the moment",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "stephanie-klepacki-WN7bxSlYI-E-unsplash.jpg",
+      "local_filename": "red-chiles.jpg",
+      "caption": "Red chiles & carved wood",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "mitchell-henderson-eI6kQdeV7N8-unsplash.jpg",
+      "local_filename": "textiles.jpg",
+      "caption": "Layers of color & pattern",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "don-agnello-wEsPKE4dEdI-unsplash.jpg",
+      "local_filename": "jewelry.jpg",
+      "caption": "A closer look at the details",
+      "location_status": "unverified unless visible sign text"
+    },
+    {
+      "source_filename": "jeffrey-keenan-LCYgF2kcxTA-unsplash.jpg",
+      "local_filename": "welcome-sign.jpg",
+      "caption": "Welcome to New Mexico",
+      "location_status": "unverified unless visible sign text"
+    }
+  ],
+  "version": 2,
+  "excluded": [
+    "Exact duplicate Ben Hoskyn image",
+    "Low-resolution duplicate of AdobeStock_131312336",
+    "Timur Garifov and Timur Kozmenko balloon/rock images: geographically unverified for New Mexico claims",
+    "Other supplied photos held to avoid redundancy or unverified venue associations"
+  ]
+}

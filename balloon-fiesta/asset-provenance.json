@@ -4,82 +4,128 @@
   "photos": [
     {
       "source_filename": "AdobeStock_131312336.jpeg",
-      "local_filename": "hero-night.jpeg"
+      "local_filename": "hero-night.jpeg",
+      "original_sha256": "4fdd9898d78b6a9a6477238e6b8da7fa4a966541aa25f131a3dcc207385ab4c8"
     },
     {
       "source_filename": "natalya-letunova-D1XvUGLFkIE-unsplash.jpg",
-      "local_filename": "watching-balloons.jpg"
+      "local_filename": "watching-balloons.jpg",
+      "original_sha256": "5c44de1f918a3f459152d1446074e8547b340bb42a71a0e9024368fb8c8d63c6"
     },
     {
       "source_filename": "chase-mcbride-lRXLSAsrVdc-unsplash.jpg",
-      "local_filename": "balloon-sky.jpg"
+      "local_filename": "balloon-sky.jpg",
+      "original_sha256": "c3a6ab781705af58734c76746ea7d03a8fd7f9987a2f142b8daf0276730ee5c9"
     },
     {
       "source_filename": "AdobeStock_424991611.jpeg",
-      "local_filename": "courtyard.jpeg"
+      "local_filename": "courtyard.jpeg",
+      "original_sha256": "39c96c52c6417d348b2dae6632399bce4e27a094e653d8b458dc8505d3ec2aec"
     },
     {
       "source_filename": "abqjournal-ven12_ja_03jul_1eats-1024x768.jpeg",
-      "local_filename": "dining.jpeg"
+      "local_filename": "dining.jpeg",
+      "original_sha256": "1934672327f0d0a4f3e736290dc5838b980eebdddea4cdc51fcb6e980acfa626"
     },
     {
       "source_filename": "adolfo-felix-zM8kYZRjVvI-unsplash.jpg",
-      "local_filename": "night-glow.jpg"
+      "local_filename": "night-glow.jpg",
+      "original_sha256": "0cbae6b195102b40d43270c86a9a7458aa9e408dbc306397e31f922448f46b95"
     },
     {
       "source_filename": "ben-hoskyn-dSPS-2dAbdc-unsplash (1).jpg",
       "local_filename": "sunrise-field.jpg",
       "caption": "First light, shared wonder",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "f4d5368516bdf328cc4f8f41adf071e1979d6839ca44e15601d6be8e39932d37"
     },
     {
       "source_filename": "chase-mcbride-3nsRgGNmNF0-unsplash.jpg",
       "local_filename": "balloon-detail.jpg",
       "caption": "Color at every scale",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "17c5313cec4e1c192d9590d9e14cfd8712cf0b6e0837da445b912d9668ecddc6"
     },
     {
       "source_filename": "rich-martello-RXT1P2TUjwE-unsplash.jpg",
       "local_filename": "festival-field.jpg",
       "caption": "A field full of anticipation",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "3699f5e5a3886c3f1aa548babfd36dc1dcdafb7e7ce01021aff384e64b7b918a"
     },
     {
       "source_filename": "walter-o-RO_yg5M8_Sc-unsplash.jpg",
       "local_filename": "balloon-crowd.jpg",
       "caption": "On the ground, in the moment",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "5b72870b185678d83c8c0fed377134e0ee6a9d06af05b022ea9b732c1e3cc0e2"
     },
     {
       "source_filename": "stephanie-klepacki-WN7bxSlYI-E-unsplash.jpg",
       "local_filename": "red-chiles.jpg",
       "caption": "Red chiles & carved wood",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "fbcb50cd6fadde0d6469b37d1401b6cc76133ea17646d7e81349d9647372dfbd"
     },
     {
       "source_filename": "mitchell-henderson-eI6kQdeV7N8-unsplash.jpg",
       "local_filename": "textiles.jpg",
       "caption": "Layers of color & pattern",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "c5b1e42c894e19d85eabf25b13b68546d3c0f1b0ccd175df28d437703b42157d"
     },
     {
       "source_filename": "don-agnello-wEsPKE4dEdI-unsplash.jpg",
       "local_filename": "jewelry.jpg",
       "caption": "A closer look at the details",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "cf6d220f14adbd7ca11929223354848377538573e59693aee3fc1bfbd1c948ff"
     },
     {
       "source_filename": "jeffrey-keenan-LCYgF2kcxTA-unsplash.jpg",
       "local_filename": "welcome-sign.jpg",
       "caption": "Welcome to New Mexico",
-      "location_status": "unverified unless visible sign text"
+      "location_status": "unverified unless visible sign text",
+      "original_sha256": "1d23a7e6d0e08439f9b7a73c454afe10ce5c1972901c4c400f7c261d10f9d910"
+    },
+    {
+      "source_filename": "davron-bowman-sCM4NNMWGJc-unsplash(1).jpg",
+      "local_filename": "sunset-study.jpg",
+      "caption": "Sunset geometry \u2014 location unverified",
+      "location_status": "unverified",
+      "layout": "round"
+    },
+    {
+      "source_filename": "andreas-rasmussen-6qRtgy2mpFE-unsplash(1).jpg",
+      "local_filename": "city-study.jpg",
+      "caption": "Lines of light \u2014 location unverified",
+      "location_status": "unverified",
+      "layout": "round"
+    },
+    {
+      "source_filename": "katlyn-giberson-OkhcMbf3vQ0-unsplash(1).jpg",
+      "local_filename": "restaurant-study.jpg",
+      "caption": "Restaurant atmosphere \u2014 venue unverified",
+      "location_status": "unverified",
+      "layout": "rect"
+    },
+    {
+      "source_filename": "jake-kling-2krPXB8znWw-unsplash(1).jpg",
+      "local_filename": "neon-study.jpg",
+      "caption": "Neon detail \u2014 photo location unverified",
+      "location_status": "unverified",
+      "layout": "rect"
     }
   ],
-  "version": 2,
+  "version": 4,
   "excluded": [
     "Exact duplicate Ben Hoskyn image",
     "Low-resolution duplicate of AdobeStock_131312336",
     "Timur Garifov and Timur Kozmenko balloon/rock images: geographically unverified for New Mexico claims",
     "Other supplied photos held to avoid redundancy or unverified venue associations"
+  ],
+  "unused_new_uploads": [
+    "tom-spross-HxeZ_kpbIMc-unsplash.jpg: cultural/geographic relevance unverified; not inserted into destination page",
+    "jeffrey and mitchell reuploads: compositions already placed once"
   ]
 }

@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-stretch: normal;
   src: url(font-0.ttf) format('truetype');
@@ -8,6 +9,7 @@
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-stretch: normal;
   src: url(font-1.ttf) format('truetype');
@@ -15,6 +17,7 @@
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-stretch: normal;
   src: url(font-2.ttf) format('truetype');
@@ -22,6 +25,7 @@
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-stretch: normal;
   src: url(font-3.ttf) format('truetype');

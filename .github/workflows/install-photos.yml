@@ -1,9 +1,5 @@
 name: Install White Sands research photographs
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/install-photos.yml'
   workflow_dispatch:
 permissions:
   contents: write
@@ -28,8 +24,8 @@ jobs:
           download 'https://commons.wikimedia.org/wiki/Special:Redirect/file/WhiteSandsGypsum.jpg' assets/nps-4.jpeg
       - name: Commit locally hosted photos
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "BABBLED77"
+          git config user.email "259142993+brookehoward2008-droid@users.noreply.github.com"
           git add assets/nps-*.jpeg
           if ! git diff --cached --quiet; then
             git commit -m "Add four licensed White Sands research photographs"

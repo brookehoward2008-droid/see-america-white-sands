@@ -1,0 +1,76 @@
+/* dist/background.css: Let one fixed landscape carry the editorial sequence without repeated cards. */
+html{background:#e6deca}body{background:transparent;isolation:isolate}
+.document-background{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:#103b42}
+.document-background iframe{position:absolute;left:50%;top:50%;width:max(100vw,177.7778vh);height:max(100vh,56.25vw);transform:translate(-50%,-50%);border:0;padding:0;margin:0;pointer-events:none}
+.background-wash{position:absolute;inset:0;background:linear-gradient(90deg,#f4efe3d9,#f4efe3b8 50%,#f4efe3d9)}
+header{position:relative;background:#f4efe3ed}main{position:relative;padding:0;overflow-x:clip}
+main>section,main>figure,main>.edition{width:100%;margin:0;position:relative;border-radius:0;box-shadow:none;border:0;background:transparent;color:#103b42}
+main>.hero{color:#fff9e9;background:#486b7d;overflow:hidden}
+main>.section,main>.hospitality,main>.stay-editorial{background:linear-gradient(180deg,transparent,#f4efe3e8 18%,#f4efe3ed 80%,transparent)}
+main>.history,main>.light-study{background:linear-gradient(180deg,transparent,#f4efe3d9 25%,#f4efe3e8 80%,transparent)}
+.edition{background:transparent}.wide{padding:55px 5%}.wide img{border-radius:0}.wide figcaption{padding:18px 0}
+main>.photo-essay{padding-top:80px;padding-bottom:80px}
+main>.town-section{padding-top:100px;padding-bottom:100px;background:linear-gradient(180deg,transparent,#f4efe3ed 24%,#f4efe3ed 75%,transparent)}
+.history-image{margin:65px 0 65px 7%}.history-image img{border-radius:0}.history-copy{padding-top:100px;padding-bottom:100px}.distinction,.stay-aside{border-color:#103b4240}.oversize-date{color:#103b42;opacity:.12}
+main .stay-editorial .image-credit{color:#3b5659}.town-section .town-title,.town-section .town-stat,.town-section .town-facts{color:#103b42}
+main>.visit{padding-top:100px;padding-bottom:100px;background:transparent}
+main img,.hospitality-photo,.light-images{border-radius:0}.flow-controls{border-radius:16px}
+footer{position:relative;background:#f4efe3ed}
+@media(max-width:600px){.background-wash{background:#f4efe3db}.history-image{margin:25px 7% 0}.history-copy{padding:60px 7%}.wide{padding:35px 7%}.hero h1{font-size:clamp(105px,25vw,150px)}}
+@media print{.document-background{display:none}main>section{background:#f4efe3!important}}
+
+/* Keep formerly dark chapters readable and separate the date from the heading. */
+main>.history,main>.light-study,main>.photo-essay,main>.stay-editorial,main>.town-section{color:#103b42}
+.history-copy{overflow:visible}
+.history-copy .oversize-date{display:block;position:static;white-space:normal;font:900 clamp(64px,8vw,112px)/1 var(--display);color:#496166;opacity:1;margin:0 0 32px;letter-spacing:-.02em}
+.history-copy h2{overflow-wrap:normal;text-wrap:balance}
+.history-image span,.light-caption{color:#fff9e9}
+@media(max-width:600px){.history-copy .oversize-date{font-size:76px;margin-bottom:24px}.history-copy h2{font-size:clamp(38px,10vw,56px);line-height:1.12;letter-spacing:-.03em}.history-copy{padding-top:40px}}
+
+/* Keep the supplied moving design inside the history chapter, beneath its reading layer. */
+main>.history{isolation:isolate;background:transparent;overflow:hidden}
+.history-background{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:#e6deca}
+.history-background iframe{position:absolute;width:100%;height:100%;inset:0;border:0;pointer-events:none}
+.history-background:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f4efe34d,#f4efe3ed 48%,#f4efe3fa)}
+.history-copy{color:#103b42}
+@media(max-width:760px){.history-background:after{background:linear-gradient(180deg,#f4efe333,#f4efe3f5 35%,#f4efe3fa)}}
+/* Float authentic photographs over a warm continuous ground, with no blue framing. */
+:root{--ink:#302c26;--deep:#302c26;--rust:#9a603d;--float-shadow:0 28px 46px -22px #33271966,0 7px 15px -10px #33271944}
+body{color:var(--ink)}.document-background,.history-background{background:#e8dfcc}
+header,footer{color:var(--ink);border:0;background:#f4efe3e8}
+main>section,main>figure,main>.edition{color:var(--ink);border:0;box-shadow:none}
+main>.photo-essay,main>.play-section,main>.flora-spread,main>.visit{background:transparent}
+main>.history,main>.light-study,main>.stay-editorial,main>.town-section{color:var(--ink)}
+.history-copy,.town-section .town-title,.town-section .town-stat,.town-section .town-facts{color:var(--ink)}
+.hero:after{background:linear-gradient(90deg,#28201855,transparent 85%),linear-gradient(0deg,#211c1633,transparent 38%)}
+main>.hero{background:#ddd1b8;color:#fff9e9}
+.hero .button{border:0;border-bottom:1px solid #fff9e980;padding-left:0;padding-right:0}
+.detail-crop{border:0;background:transparent;transform:translateY(-10px);width:64%}
+.detail-crop img,.wide>img,.photo-essay img,.play-photo img,.flora-spread img,.stay-story img,.hospitality-photo{box-shadow:var(--float-shadow);border:0;border-radius:0}
+.detail-crop span{display:block;padding-top:14px}
+.history-image img{box-shadow:var(--float-shadow)}
+.history-image span{background:#f4efe3ed;color:var(--ink);padding:13px 0;width:100%;bottom:-38px}
+.light-caption{background:#f4efe3e8;color:var(--ink)}
+.notes article,.activity-row,.stay-aside,.distinction,.hospitality-note,.town-facts,.time-rule{border:0}
+.time-rule i{background:#8b755244}.reading-progress{background:#9a603d}
+.photo-essay{grid-template-columns:1.05fr 1.3fr .85fr;gap:6%;padding:100px 7% 150px;align-items:start}
+.photo-essay figure:nth-child(1){padding:0;transform:translateY(80px)}
+.photo-essay figure:nth-child(2){padding:0;transform:translateY(0)}
+.photo-essay figure:nth-child(3){padding:0;transform:translateY(180px)}
+.photo-essay figure:nth-child(1) img{height:320px}.photo-essay figure:nth-child(2) img{height:550px}.photo-essay figure:nth-child(3) img{height:350px}
+.photo-essay figcaption{color:var(--ink);padding-top:20px;line-height:1.6}
+.dining-story:first-child .photo-title{background:#f4efe3eb;color:var(--ink);text-shadow:none;left:18px;bottom:18px;padding:12px 16px}
+.flow-controls{background:#f4efe3f5;color:var(--ink);border:0;box-shadow:0 8px 35px #33271922;backdrop-filter:blur(12px);border-radius:0}
+.flow-controls button{border:0;background:#e4dac7;color:#302c26}
+.motion-toggle{border:0;background:transparent;color:var(--ink)}
+@media(max-width:760px){
+.photo-essay{display:flex;flex-direction:column;gap:65px;padding:70px 7% 95px}
+.photo-essay figure:nth-child(1){width:82%;align-self:flex-start;transform:none}
+.photo-essay figure:nth-child(2){width:86%;align-self:flex-end;transform:none}
+.photo-essay figure:nth-child(3){width:76%;align-self:flex-start;transform:none}
+.photo-essay figure:nth-child(1) img{height:auto;aspect-ratio:1.15;object-fit:cover}
+.photo-essay figure:nth-child(2) img{height:auto;aspect-ratio:.72;object-fit:cover}
+.photo-essay figure:nth-child(3) img{height:auto;aspect-ratio:1.1;object-fit:cover}
+.detail-crop{margin:25px 0 40px auto;width:70%;transform:none}
+.flow-controls{padding:10px 12px;gap:10px}.flow-controls button{min-height:36px}
+}

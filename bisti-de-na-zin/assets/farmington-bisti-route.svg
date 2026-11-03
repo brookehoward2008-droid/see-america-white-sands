@@ -1,0 +1,8 @@
+<!-- dist/assets/farmington-bisti-route.svg: Explain BLM's approach route without implying a navigational map. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 410" role="img" aria-labelledby="title desc">
+<title id="title">Farmington to the Bisti trailhead</title><desc id="desc">A schematic showing NM 371 south from Farmington, then Road 7297 east and the final left turn to Bisti parking. Not to scale.</desc>
+<g fill="none" stroke="#8ca4b6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M84 65V330H372V275"/><path d="M490 78V40m-6 8 6-8 6 8"/></g>
+<g fill="#f3ead7"><circle cx="84" cy="65" r="7"/><circle cx="84" cy="330" r="5"/></g>
+<circle cx="372" cy="275" r="10" fill="#dec28d"/><circle cx="372" cy="275" r="4" fill="#0b1520"/>
+<g font-family="Arial,sans-serif" fill="#f3ead7"><text x="108" y="62" font-size="25" font-weight="700">Farmington</text><text x="108" y="85" font-size="15" fill="#b7c4ce">Your town base</text><text x="110" y="181" font-size="19" font-weight="700">NM 371</text><text x="110" y="205" font-size="16" fill="#b7c4ce">South · about 36 miles</text><text x="108" y="362" font-size="17" font-weight="700">Road 7297</text><text x="108" y="385" font-size="15" fill="#b7c4ce">East · about 2 miles</text><text x="338" y="214" font-size="22" font-weight="700">Bisti</text><text x="338" y="237" font-size="15" fill="#b7c4ce">Trailhead parking</text><text x="388" y="307" font-size="15" fill="#b7c4ce">Left · 1 mile</text><text x="484" y="27" font-size="14" fill="#b7c4ce">N</text></g>
+</svg>

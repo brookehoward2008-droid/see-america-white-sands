@@ -1,0 +1,28 @@
+/* mobile-fixes.css: Preserve the editorial composition while keeping mobile reading and playback unobstructed. */
+html,body{max-width:100%;overflow-x:clip}
+main{min-width:0}
+main .wide{width:100%;margin:0;padding:clamp(24px,5vw,65px) 7%}
+.wide>img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#e8dfcc}
+.wide{position:relative}
+.wide .image-word{position:relative;display:block;width:max-content;max-width:100%;margin:-.45em 0 0 .02em;font-size:clamp(54px,13vw,160px);line-height:1;overflow-wrap:anywhere}
+.wide figcaption{display:flex;flex-wrap:wrap;gap:6px 22px;line-height:1.6}
+.wide figcaption span{display:block}
+.observation-photo{display:block;background:#e8dfcc}
+@media(max-width:760px){
+  .depth-intro{padding-top:65px;padding-bottom:55px}
+  .detail-crop{margin:18px 0 25px auto;width:min(78%,380px)}
+  .wide>img{aspect-ratio:1.4;max-height:350px}
+  .wide .image-word{font-size:clamp(52px,15vw,100px);margin-top:-.38em}
+  .wide figcaption{font-size:10px;letter-spacing:.035em}
+  .photo-observations{padding-top:35px}
+  .observation-photo{height:auto;aspect-ratio:1.65;object-fit:cover;margin-bottom:4px}
+  .section h2{overflow-wrap:break-word}
+  .flow-controls{left:0;right:0;bottom:0;width:100%;max-width:100%;border-radius:0;padding:10px max(12px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));gap:8px}
+  .flow-controls button{flex:0 0 auto;min-height:44px}
+  .flow-label{max-width:92px;line-height:1.3}
+  #flow-state{font-size:10px}
+  body{padding-bottom:calc(90px + env(safe-area-inset-bottom))}
+  main>section,main>figure{scroll-margin-bottom:calc(110px + env(safe-area-inset-bottom))}
+}
+@media(max-width:390px){.flow-label{font-size:8px;max-width:72px}.flow-controls{gap:4px}.flow-controls button{padding:8px}}
+@media print{body{padding-bottom:0}.wide .image-word{margin-top:-.35em}}
